@@ -1,0 +1,17 @@
+name: crystal-firstrepeat-api
+version: 0.1.0
+
+authors:
+  - Jim Wharton <jimwharton@overstock.com>
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+targets:
+  crystal-firstrepeat-api:
+    main: src/crystal-firstrepeat-api.cr
+
+crystal: 0.25.1
+
+license: MIT
